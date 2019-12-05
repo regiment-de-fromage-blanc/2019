@@ -1,4 +1,5 @@
 import React from 'react';
+const Page404 = React.lazy(() => import('./layouts/Page404'));
 const About = React.lazy(() => import('./layouts/About'));
 const Timeline = React.lazy(() => import('./layouts/Timeline'));
 const Dashboard = React.lazy(() => import('./layouts/Dashboard'));
@@ -22,6 +23,10 @@ const routes = [
   {
     path: '/personal',
     main: () => <Personnal  />
+  },
+  {
+    path: '/*',
+    main: (props) => <Page404 data={props} />
   }
 ];
 
