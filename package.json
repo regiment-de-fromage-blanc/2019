@@ -12,6 +12,7 @@
     "@material-ui/icons": "^4.2.1",
     "autoprefixer": "^9.6.0",
     "babel": "^6.23.0",
+    "cors": "^2.8.5",
     "i18next": "^17.0.4",
     "i18next-browser-languagedetector": "^3.0.1",
     "i18next-xhr-backend": "^3.0.0",
@@ -30,7 +31,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "api": "node backend/app.js"
+    "api": "node backend/app.js",
+    "apidev": "nodemon backend/app.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -50,6 +52,7 @@
   "devDependencies": {
     "css-loader": "^3.0.0",
     "node-sass": "^4.12.0",
+    "nodemon": "^2.0.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1"
   }
