@@ -67,7 +67,6 @@ export const en = {
     "myCourse": "My course",
     "myCourseSub": " With my science baccalaureate, I have decided to learn IT with a management and education side.",
     "myCurrentJob": "le régiment du fromage blanc",
-    "myNameIs": "We are",
     "mySkills": "MY SKILLS",
     "next": "Next",
     "none": "None",
@@ -78,6 +77,7 @@ export const en = {
     "personalInfos": "My infos",
     "personalInfos2": "IDENTITY",
     "personalSummary": "On est tub's on est pas des pots mais on a tout ce qu'il vous faut : du calcium de la vitamine D.",
+    "phraseAccroche": "It's not hard to be student",
     "privacyRespect": "Do you like when brands respects your privacy ?",
     "professionalSummary": "A beautiful description",
     "place": "Place of Birth :",
@@ -88,6 +88,7 @@ export const en = {
     "small": "Small",
     "spacing": "Spacing",
     "timelineEnd": "You've reach the end of my Timeline !",
+    "titleWebsite": "Vie Etudiante",
     "whoAmI": "Who are we ?",
     "works": "Curriculum",
 };

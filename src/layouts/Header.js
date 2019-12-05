@@ -1,43 +1,39 @@
-import { Container, Grid, Typography } from '@material-ui/core';
+import {Container, Grid, Typography} from '@material-ui/core';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { makeStyles } from '@material-ui/core/styles';
+import {makeStyles} from '@material-ui/core/styles';
 import React from 'react';
-import octocat from '../assets/img/website/octocat.png';
-import octocatWebp from '../assets/img/website/octocat.webp';
-import { withTranslation } from 'react-i18next';
+import student from '../assets/img/website/student.png';
+import {withTranslation} from 'react-i18next';
 
 const useStyles = makeStyles({
-  root: {
-    width: '100%',
-    paddingBottom: '2em'
-  },
+    root: {
+        width: '100%',
+        paddingBottom: '2em',
+        paddingTop: '2em'
+    },
 });
 
-function Header({ t }) {
+function Header({t}) {
     const classes = useStyles();
 
     return (
         <React.Fragment>
-            <CssBaseline />
+            <CssBaseline/>
             <Container className={classes.root} maxWidth="xl">
-                <Grid 
+                <Grid
                     container
                     direction="row"
                     justify="center"
                     alignItems="center"
                 >
-                    <Grid item>
+                    <Grid item lg={2}>
                         <figure className="logo">
-                            <picture >
-                                <source width="100%" srcSet={octocatWebp} type="image/webp"/>
-                                <img width="100%" src={octocat} alt="me as an octocat"/>
-                            </picture>
+                            <img width="30%" src={student} alt="me as an octocat"/>
                         </figure>
                     </Grid>
-                    <Grid item >
-                        <Typography variant="h2" component="h2" gutterBottom>&lt;HELLO_WORLD/&gt;</Typography>
-                        <Typography variant="h1" component="h1" gutterBottom>{t('myNameIs')}</Typography>
-                        <Typography variant="h2" component="h2" gutterBottom>{t('myCurrentJob')}</Typography>
+                    <Grid item lg={10}>
+                        <Typography variant="h1" component="h1" gutterBottom>{t('titleWebsite')}</Typography>
+                        <Typography variant="h2" component="h2" gutterBottom>{t('phraseAccroche')}</Typography>
                     </Grid>
                 </Grid>
             </Container>

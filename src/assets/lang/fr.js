@@ -67,7 +67,6 @@ export const fr = {
     "myCurrentJob": "le régiment du fromage blanc",
     "myCourse": "Mon cursus",
     "myCourseSub": "Issu d'un Baccalauréat général scientifique, j'ai décidé de me lancer dans l'informatique et d'avoir des compétences dans la gestion et l'enseignement.",
-    "myNameIs": "Nous sommes",
     "mySkills": "MES COMPETENCES",
     "next": "Suivant",
     "none": "Aucun",
@@ -78,6 +77,7 @@ export const fr = {
     "personalInfos": "Mes infos",
     "personalInfos2": "INFOS PERSONNELLES",
     "personalSummary": "On est tub's on est pas des pots mais on a tout ce qu'il vous faut : du calcium de la vitamine D.",
+    "phraseAccroche": "Ce n'est plus compliqué d'être étudiant",
     "privacyRespect": "Vous aimez qu'on respecte votre vie privée ?",
     "professionalSummary": "Une belle description",
     "place": "Lieu de naissance :",
@@ -88,6 +88,7 @@ export const fr = {
     "small": "Petite",
     "spacing": "Espacement",
     "timelineEnd": "Vous avez atteint la fin de ma Timeline !",
+    "titleWebsite": "Vie Etudiante",
     "whoAmI": "Apprenez à nous connaître !",
     "works": "Cursus",
     
