@@ -21,7 +21,7 @@ const menuContent = [
     {
         text: 'personnal',
         icon: 'eye',
-        url: '/personal'
+        url: '/user-experience'
     }, 
     {
         text: 'Divider'
@@ -29,7 +29,7 @@ const menuContent = [
     {
         text: 'contact',
         icon: 'envelope',
-        url: '/contact'
+        url: '/personal'
     }
 ];
 
