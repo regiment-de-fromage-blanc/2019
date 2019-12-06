@@ -1,0 +1,4 @@
+# Commands to use in mongo shell
+
+use nuit
+db.createCollection("users")
