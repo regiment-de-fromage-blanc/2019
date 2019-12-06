@@ -84,7 +84,6 @@ function Dashboard({ t }) {
                 </CardContent>
             </Card>
         </Grid>
-      
     </Grid>
   )};
 

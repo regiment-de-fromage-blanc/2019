@@ -1,4 +1,5 @@
 import React from 'react';
+const Ergonomie = React.lazy(() => import('./layouts/Ergonomie'));
 const Page404 = React.lazy(() => import('./layouts/Page404'));
 const About = React.lazy(() => import('./layouts/About'));
 const Timeline = React.lazy(() => import('./layouts/Timeline'));
@@ -23,6 +24,10 @@ const routes = [
   {
     path: '/personal',
     main: () => <Personnal  />
+  },
+  {
+    path: '/user-experience',
+    main: () => <Ergonomie/>
   },
   {
     path: '/*',
