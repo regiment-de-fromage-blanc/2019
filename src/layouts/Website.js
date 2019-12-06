@@ -4,10 +4,8 @@ import {
     faAngleDown,
     faArrowAltCircleDown,
     faBars,
-    faBriefcase,
     faCarrot,
     faDownload,
-    faEnvelope,
     faEye,
     faFilePdf,
     faFlag,
@@ -15,9 +13,7 @@ import {
     faPlusCircle,
     faSignInAlt,
     faStar,
-    faVenusMars,
     faBuilding
-    faArrowAltCircleDown
 } from '@fortawesome/free-solid-svg-icons';
 import {
     Button,
@@ -40,7 +36,7 @@ import Draggable from 'react-draggable';
 import TextField from "@material-ui/core/TextField";
 import UserUtils from "../utils/UserUtils";
 
-library.add(faTwitter, faLinkedin, faFirefox, faFilePdf, faEnvelope, faBars, faVenusMars, faStar, faBriefcase, faAngleDown, faHome, faFlag, faDownload, faEye, faArrowAltCircleDown, faCarrot, faSignInAlt, faPlusCircle, faBuilding);
+library.add(faTwitter, faLinkedin, faFirefox, faFilePdf, faBars, faStar, faAngleDown, faHome, faFlag, faDownload, faEye, faArrowAltCircleDown, faCarrot, faSignInAlt, faPlusCircle, faBuilding);
 
 function PaperComponent(props) {
     return (

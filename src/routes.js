@@ -36,7 +36,7 @@ const routes = [
   },
   {
     path: '/Logement',
-    main: () => <Logement  />
+    main: () => <Logement/>
   },
   {
     path: '/*',

@@ -10,41 +10,24 @@ const menuContent = [
     },
     {
         text: 'Divider'
-    }, 
-    {
-        text: 'personalInfos',
-        icon: 'venus-mars',
-        url: '/about'
-    }, 
-    {
-        text: 'works',
-        icon: 'briefcase',
-        url: '/timeline'
-    },
-    {
-        text: 'personnal',
-        icon: 'eye',
-        url: '/personal'
     },
     {
         text: 'logement',
         icon: 'building',
         url: '/logement'
     },
+    {
+        icon: 'eye',
+        text: 'personnal',
         url: '/user-experience'
     }, 
     {
-        text: 'nutrition',
         icon: 'carrot',
+        text: 'nutrition',
         url: '/nutrition'
     },
     {
         text: 'Divider'
-    }, 
-    {
-        text: 'contact',
-        icon: 'envelope',
-        url: '/personal'
     }
 ];
 

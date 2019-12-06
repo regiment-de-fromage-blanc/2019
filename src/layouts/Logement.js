@@ -115,21 +115,5 @@ export default function Personal() {
                     </CardContent>
                 </Collapse>
             </Card>
-
-            // {/*<div className={classes.paragraphDiv}>*/}
-            // {/*    <img src={crousImg} alt="236" className={classes.img}/>*/}
-            // {/*    <div className={classes.paragraph2}>*/}
-            // {/*        <p className={classes.parag}>*/}
-            // {/*            Tu peux suivre le lien <a href="https://trouverunlogement.lescrous.fr/">suivant</a>*/}
-            // {/*        </p>*/}
-            // {/*        <p className={classes.parag}>*/}
-            // {/*            Tu peux aussi visitez un allez dans l'un des Crous dans ta ville*/}
-            // {/*        </p>*/}
-            // {/*        https://www.lokaviz.fr/*/}
-            // {/*    </div>*/}
-            // {/*</div>*/}
-            // {/*<div>*/}
-            //
-            // {/*</div>*/}
     )
 }

@@ -10,7 +10,6 @@ export const fr = {
     "cols": "Colonne(s)",
     "configurationPortfolio": "Configuration du Portfolio",
     "confirm": "Valider",
-    "contact": "Me contacter",
     "contentSource": "Le contenu du site web est sous licence ",
     "creationYadak": "Création YADAK - Crédits photo : ISTOCK",
     "creationZupdeCo": "Création ZupdeCo - Crédits photo : ZupDeCo",
@@ -78,7 +77,6 @@ export const fr = {
     "page": "Page numéro",
     "partners": "Partenaires",
     "personnal": "Navigation clavier",
-    "personalInfos": "Mes infos",
     "personalInfos2": "INFOS PERSONNELLES",
     "personalSummary": "On est tub's on est pas des pots mais on a tout ce qu'il vous faut : du calcium de la vitamine D.",
     "phraseAccroche": "Ce n'est plus compliqué d'être étudiant",
@@ -100,6 +98,4 @@ export const fr = {
     "restoU": "Pendant la pause de midi, tu peux te rendre dans un Restaurant Universitaire (RU) pour manger un repas complet. Les fast-food doivent rester une exception et pas une habitude. Si ton repas n'est pas équilibré, tu peux toujours te rattraper sur le repas du soir.",
     "titleWebsite": "Vie Etudiante",
     "whoAmI": "Apprenez à nous connaître !",
-    "works": "Cursus",
-    
 };
