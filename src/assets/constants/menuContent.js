@@ -35,6 +35,12 @@ const menuContent = [
         text: 'contact',
         icon: 'envelope',
         url: '/personal'
+    },
+    {
+        text: 'taxes',
+        icon: 'coins',
+        url: '/impots'
+
     }
 ];
 
