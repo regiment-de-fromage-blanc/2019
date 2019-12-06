@@ -4,6 +4,8 @@ import List from '@material-ui/core/List';
 import clsx from 'clsx';
 import React from 'react';
 import TranslateContentMenu from '../variables/TranslateContentMenu';
+import {Link} from "react-router-dom";
+import {Trans} from "react-i18next";
 
 const drawerWidth = 240;
 
@@ -55,6 +57,18 @@ function DrawerMinimize(props) {
             <List>
                 <ListItem button key="Collapse" onClick={props.toggleDrawer}>
                     <ListItemIcon><FontAwesomeIcon icon="bars" size="2x"/></ListItemIcon>
+                </ListItem>
+                {
+                    props.logon ? null : (
+                        <ListItem button key="register" alignItems="center" to="register" component={Link}>
+                        <ListItemIcon><FontAwesomeIcon icon="plus-circle" size="2x" /></ListItemIcon>
+                        <ListItemText><Trans i18nKey="register"/></ListItemText>
+                    </ListItem>
+                    )
+                }
+                <ListItem button key="login/logout" alignItems="center" onClick={props.openLogin} component={Link}>
+                    <ListItemIcon><FontAwesomeIcon icon="sign-in-alt" size="2x" /></ListItemIcon>
+                    <ListItemText><Trans i18nKey={props.logon ? "logout" : "login"}/></ListItemText>
                 </ListItem>
                 <TranslateContentMenu/>
                 <ListItem button onClick={props.changeLanguage}>

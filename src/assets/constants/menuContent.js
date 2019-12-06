@@ -1,6 +1,9 @@
 /* Check if your icon is imported and defined on Website.js */
 const menuContent = [
     {
+        text: 'Divider'
+    },
+    {
         text: 'home',
         icon: 'home',
         url: '/'
