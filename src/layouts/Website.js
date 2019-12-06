@@ -13,7 +13,7 @@ import {
     faPlusCircle,
     faSignInAlt,
     faStar,
-    faCoins
+    faCoins,
     faBuilding
 } from '@fortawesome/free-solid-svg-icons';
 import {
