@@ -1,11 +1,12 @@
 import {Container, makeStyles, Typography} from '@material-ui/core';
 import React from 'react';
 import routes from "../routes";
+import Canvas from "../components/Canvas";
 
 const useStyles = makeStyles(theme => ({
     root: {
         textAlign: 'center'
-    }
+    },
 }));
 
 export default function Page404({data}) {
@@ -16,9 +17,9 @@ export default function Page404({data}) {
                 <Typography variant="h1" component="h2" className={classes.root}>
                     404 Not Found
                 </Typography>
-                <canvas>
+                <Canvas className={classes.img}>
 
-                </canvas>
+                </Canvas>
             </Container> : null
     )
 }
