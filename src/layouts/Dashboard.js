@@ -4,6 +4,7 @@ import React from 'react';
 import { withTranslation } from 'react-i18next';
 import { makeStyles } from '@material-ui/core/styles';
 import browser from './../assets/img/website/browser.png';
+import UserUtils from "../utils/UserUtils";
 
 const useStyles = makeStyles(theme => ({
     card: {
@@ -26,6 +27,7 @@ const useStyles = makeStyles(theme => ({
   }));
 
 function Dashboard({ t }) {
+  UserUtils.register('jerome', 'mdp');
   function _handleOpenLink() {
     var win = window.open('https://www.mozilla.org/fr/firefox/new/', '_blank');
     win.focus();
@@ -84,7 +86,6 @@ function Dashboard({ t }) {
                 </CardContent>
             </Card>
         </Grid>
-      
     </Grid>
   )};
 

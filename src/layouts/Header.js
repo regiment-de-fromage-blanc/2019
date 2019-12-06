@@ -5,6 +5,7 @@ import React from 'react';
 import student from '../assets/img/website/student.png';
 import {withTranslation} from 'react-i18next';
 
+
 const useStyles = makeStyles({
     root: {
         width: '100%',

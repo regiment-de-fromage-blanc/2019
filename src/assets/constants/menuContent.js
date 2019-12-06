@@ -28,13 +28,20 @@ const menuContent = [
         icon: 'building',
         url: '/logement'
     },
+        url: '/user-experience'
+    }, 
+    {
+        text: 'nutrition',
+        icon: 'carrot',
+        url: '/nutrition'
+    },
     {
         text: 'Divider'
     }, 
     {
         text: 'contact',
         icon: 'envelope',
-        url: '/contact'
+        url: '/personal'
     }
 ];
 
