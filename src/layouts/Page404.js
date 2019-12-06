@@ -6,7 +6,7 @@ import Canvas from "../components/Canvas";
 const useStyles = makeStyles(theme => ({
     root: {
         textAlign: 'center'
-    },
+    }
 }));
 
 export default function Page404({data}) {

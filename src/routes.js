@@ -7,6 +7,7 @@ const Dashboard = React.lazy(() => import('./layouts/Dashboard'));
 const Personnal = React.lazy(() => import('./layouts/Personal'));
 const Logement = React.lazy(() => import('./layouts/Logement'));
 const Nutrition = React.lazy(() => import('./layouts/Nutrition'));
+const Register = React.lazy(() => import('./layouts/Register'));
 
 const routes = [
   {
@@ -37,6 +38,10 @@ const routes = [
   {
     path: '/Logement',
     main: () => <Logement/>
+  },
+  {
+    path: '/register',
+    main: () => <Register/>
   },
   {
     path: '/*',
