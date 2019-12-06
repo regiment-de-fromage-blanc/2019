@@ -24,6 +24,11 @@ const menuContent = [
         url: '/user-experience'
     }, 
     {
+        text: 'nutrition',
+        icon: 'carrot',
+        url: '/nutrition'
+    },
+    {
         text: 'Divider'
     }, 
     {

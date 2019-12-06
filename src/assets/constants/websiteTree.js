@@ -40,8 +40,8 @@ export const websiteTree = {
             links: [
                 {
                     id: '0.2.1',
-                    name: 'Nourriture',
-                    url: '/nourriture',
+                    name: 'Nutrition',
+                    url: '/nutrition',
                     img: food
                 },
                 {
