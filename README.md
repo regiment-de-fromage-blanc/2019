@@ -2,8 +2,12 @@
 
 Le régiment du fromage blanc est de retour
 
-## Scripts
+## Launch application locally
 
-Launch Api: `npm run api`
+1. Get the database by installing MongoDB, and use commands written in ./backend/initDB.txt to initialize the DB.
+2. Launch Backend with `npm run api`.
+3. Launch Frontend with `npm run start`.
 
-Launch Api with nodemon: `npm run apidev`
+## Developpment
+
+You can use `npm run apidev`, to launch backend with nodemon.
