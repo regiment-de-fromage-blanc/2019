@@ -6,7 +6,14 @@ const dbUrl = 'mongodb://localhost:27017';
 const dbName = 'nuit';
 const MongoClient = require('mongodb').MongoClient(dbUrl, { useUnifiedTopology: true });
 const assert = require('assert');
+const dbFunctions = require('./db');
 
+// Application configuration
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(cors());
+
+// Database & routing
 MongoClient.connect( (err, client) => {
     // Get DB connexion
     assert.equal(null, err);
@@ -14,8 +21,8 @@ MongoClient.connect( (err, client) => {
     const db = client.db(dbName);
 
     // Routing
-    app.get('/', (req, res) => res.send('Hello World!'));
+    app.post('/register', (req, res) => dbFunctions.register(req, res, db) );
 });
 
-app.use(cors());
+// Port listening
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
