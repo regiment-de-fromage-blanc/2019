@@ -65,6 +65,7 @@ export const fr = {
     "linkDownload": "Et si vous téléchargiez ",
     "linkDownload2": " grâce à moi ?",
     "linkDownload3": "Téléchargez Firefox !",
+    "logement": "Logement",
     "medium": "Moyenne",
     "myCurrentJob": "le régiment du fromage blanc",
     "myCourse": "Mon cursus",

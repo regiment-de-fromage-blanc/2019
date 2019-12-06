@@ -24,6 +24,13 @@ const menuContent = [
     {
         text: 'personnal',
         icon: 'eye',
+        url: '/personal'
+    },
+    {
+        text: 'logement',
+        icon: 'building',
+        url: '/logement'
+    },
         url: '/user-experience'
     }, 
     {

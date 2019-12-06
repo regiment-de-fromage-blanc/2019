@@ -65,6 +65,7 @@ export const en = {
     "linkDownload": "Do you trust on ",
     "linkDownload2": "? It is my favorite browser.",
     "linkDownload3": "Download Firefox !",
+    "logement": "Housing",
     "medium": "Medium",
     "myCourse": "My course",
     "myCourseSub": " With my science baccalaureate, I have decided to learn IT with a management and education side.",
