@@ -11,7 +11,8 @@ import {
     faFlag,
     faHome,
     faStar,
-    faVenusMars
+    faVenusMars,
+    faBuilding
 } from '@fortawesome/free-solid-svg-icons';
 import {CircularProgress, Container} from '@material-ui/core';
 import {makeStyles} from '@material-ui/core/styles';
@@ -22,7 +23,7 @@ import DrawerMinimize from '../components/DrawerMinize';
 import routes from '../routes';
 import Header from './Header';
 
-library.add(faTwitter, faLinkedin, faFirefox, faFilePdf, faEnvelope, faBars, faVenusMars, faStar, faBriefcase, faAngleDown, faHome, faFlag, faDownload, faEye);
+library.add(faTwitter, faLinkedin, faFirefox, faFilePdf, faEnvelope, faBars, faVenusMars, faStar, faBriefcase, faAngleDown, faHome, faFlag, faDownload, faEye, faBuilding);
 
 
 const useStyles = makeStyles(theme => ({

@@ -4,6 +4,7 @@ const About = React.lazy(() => import('./layouts/About'));
 const Timeline = React.lazy(() => import('./layouts/Timeline'));
 const Dashboard = React.lazy(() => import('./layouts/Dashboard'));
 const Personnal = React.lazy(() => import('./layouts/Personal'));
+const Logement = React.lazy(() => import('./layouts/Logement'));
 
 
 const routes = [
@@ -23,6 +24,10 @@ const routes = [
   {
     path: '/personal',
     main: () => <Personnal  />
+  },
+  {
+    path: '/Logement',
+    main: () => <Logement  />
   },
   {
     path: '/*',
