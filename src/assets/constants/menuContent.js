@@ -21,15 +21,20 @@ const menuContent = [
     {
         text: 'personnal',
         icon: 'eye',
-        url: '/personal'
+        url: '/user-experience'
     }, 
+    {
+        text: 'nutrition',
+        icon: 'carrot',
+        url: '/nutrition'
+    },
     {
         text: 'Divider'
     }, 
     {
         text: 'contact',
         icon: 'envelope',
-        url: '/contact'
+        url: '/personal'
     }
 ];
 
