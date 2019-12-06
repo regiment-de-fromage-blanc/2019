@@ -3,10 +3,11 @@
     "password": "azerty"
 } */
 function register(req, res, db) {
-    let name = req.body.name;
-    let password = req.body.password;
+    const name = req.body.name;
+    const password = req.body.password;
+
     if (name !== undefined && password !== undefined) {
-        db.collection('users').find({name: name}, (err, result) => {
+        db.collection('users').find({name: name}).toArray((err, result) => {
             if (err) throw err;
             if (result.length === 0) {
                 db.collection('users').insertOne({
@@ -32,6 +33,36 @@ function register(req, res, db) {
     }
 }
 
+/* Data: {
+    "name": "Thomas",
+    "password": "azerty"
+} */
+function login(req, res, db) {
+    const error = {
+        status: false,
+        description: "Wrong username/password"
+    }
+    const name = req.body.name;
+    const password = req.body.password;
+
+    if (name !== undefined && password !== undefined) {
+        db.collection('users').findOne({name: name, password: password}, (err, result) => {
+            if (err) throw err;
+            if (result) {
+                res.send({
+                    status: true,
+                    description: "Correct authentification"
+                });
+            } else {
+                res.send(error);
+            }
+        });
+    } else {
+        res.send(error);
+    }
+}
+
 module.exports = {
-    register: register
+    register: register,
+    login: login
 }

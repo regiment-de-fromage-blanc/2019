@@ -22,6 +22,7 @@ MongoClient.connect( (err, client) => {
 
     // Routing
     app.post('/register', (req, res) => dbFunctions.register(req, res, db) );
+    app.post('/login', (req, res) => dbFunctions.login(req, res, db) );
 });
 
 // Port listening
