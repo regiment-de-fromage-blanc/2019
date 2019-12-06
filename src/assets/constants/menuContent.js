@@ -28,6 +28,11 @@ const menuContent = [
     },
     {
         text: 'Divider'
+    }, 
+    {
+        text: 'taxes',
+        icon: 'coins',
+        url: '/impots'
     }
 ];
 

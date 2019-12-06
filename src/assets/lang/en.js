@@ -92,6 +92,7 @@ export const en = {
     "size": "Size",
     "small": "Small",
     "spacing": "Spacing",
+    "taxes": "Taxes",
     "timelineEnd": "You've reach the end of my Timeline !",
     "titleWebsite": "Vie Etudiante",
     "whoAmI": "Who are we ?",
