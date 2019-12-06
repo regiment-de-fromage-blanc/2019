@@ -1,46 +1,38 @@
 /* Check if your icon is imported and defined on Website.js */
 const menuContent = [
     {
+        text: 'Divider'
+    },
+    {
         text: 'home',
         icon: 'home',
         url: '/'
     },
     {
         text: 'Divider'
-    }, 
-    {
-        text: 'personalInfos',
-        icon: 'venus-mars',
-        url: '/about'
-    }, 
-    {
-        text: 'works',
-        icon: 'briefcase',
-        url: '/timeline'
     },
     {
-        text: 'personnal',
+        text: 'logement',
+        icon: 'building',
+        url: '/logement'
+    },
+    {
         icon: 'eye',
+        text: 'personnal',
         url: '/user-experience'
     }, 
     {
-        text: 'nutrition',
         icon: 'carrot',
+        text: 'nutrition',
         url: '/nutrition'
     },
     {
         text: 'Divider'
     }, 
     {
-        text: 'contact',
-        icon: 'envelope',
-        url: '/personal'
-    },
-    {
         text: 'taxes',
         icon: 'coins',
         url: '/impots'
-
     }
 ];
 
