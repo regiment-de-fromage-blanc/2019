@@ -74,7 +74,7 @@ export const en = {
     "nutrition": "Nutrition",
     "page": "Page number",
     "partners": "Partners",
-    "personnal": "Curiosity",
+    "personnal": "Keyboard navigation",
     "personalInfos": "My infos",
     "personalInfos2": "IDENTITY",
     "personalSummary": "On est tub's on est pas des pots mais on a tout ce qu'il vous faut : du calcium de la vitamine D.",
