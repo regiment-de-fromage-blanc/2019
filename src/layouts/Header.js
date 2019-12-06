@@ -53,8 +53,8 @@ function Header({t}) {
                     <Grid item lg={2}>
                         <figure className="logo">
                             {elapsedTime ?
-                                <img width="30%" src={rick} onload={setTimeout(onLaunchRickroll, 10000)} alt="rick"/> :
-                                <img width="30%" src={student} onload={setTimeout(onTimerElapsed, 50000)} alt="student"/>
+                                <img width="30%" src={rick} onLoad={() => setTimeout(onLaunchRickroll, 10000)} alt="rick"/> :
+                                <img width="30%" src={student} onLoad={() => setTimeout(onTimerElapsed, 50000)} alt="student"/>
                             }
                         </figure>
                     </Grid>
