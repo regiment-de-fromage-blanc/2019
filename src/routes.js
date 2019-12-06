@@ -5,6 +5,7 @@ const About = React.lazy(() => import('./layouts/About'));
 const Timeline = React.lazy(() => import('./layouts/Timeline'));
 const Dashboard = React.lazy(() => import('./layouts/Dashboard'));
 const Personnal = React.lazy(() => import('./layouts/Personal'));
+const Nutrition = React.lazy(() => import('./layouts/Nutrition'));
 
 
 const routes = [
@@ -23,7 +24,11 @@ const routes = [
   },
   {
     path: '/personal',
-    main: () => <Personnal  />
+    main: () => <Personnal/>
+  },
+  {
+    path: '/nutrition',
+    main: () => <Nutrition/>
   },
   {
     path: '/user-experience',

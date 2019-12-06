@@ -71,6 +71,7 @@ export const en = {
     "next": "Next",
     "none": "None",
     "number": "Number",
+    "nutrition": "Nutrition",
     "page": "Page number",
     "partners": "Partners",
     "personnal": "Curiosity",
